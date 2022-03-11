@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DanMera Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Countries <strong>and Activities</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Henry - Individual Project</p>
+            <img src="img/henry_pi.jpg" alt="a picture of my project" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>As part of the full stack development boot camp at <a href="https://www.soyhenry.com" target="_blank">Henry</a>, the Individual project called "Countries and Activities" had to be developed using the following: Postgresql, ReactJS, Redux, NodeJS, ExpressJS, Sequelize and the <a href="https://restcountries.com">Rest Countries API</a>. </p>
+            <img src="img/henry_pi.jpg" alt="">
+            <p>This SPA or Single Page Application shows all the countries available in the API, and can be filtered by continent, and activity. It can also be sorted in ascending and descending order by country name, and population size. Finally, the application can also search for a country with specific text.</p>
+            <p>It has an individual country detail page, where it provides more information about the selected country as well as the activities available to be done in that country.</p>
+            <p>Additionally, there is a new activity creation form, with the necessary controls. It assigns the newly created activity to different countries which can be chosen.</p>
+            <p>The following video shows the project being used.</p>
+            <div class="video">
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/jGjto9ZnuN8">
+                </iframe>
+            </div>
+            <p>You can also view and test the application in the following link <a href=""></a>, enjoy it!</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:danmera@danmera.com" class="footer__link">danmera@danmera.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/danmera1980">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://linkedin.com/in/danmera80">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/danmera1980">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://wa.me/593958612779">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+    </html>

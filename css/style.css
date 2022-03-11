@@ -468,3 +468,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
